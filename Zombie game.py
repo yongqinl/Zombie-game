@@ -97,6 +97,6 @@ while z < len(x) - 1:
         break
     z += 1
 
-print(y)
+print("Alice's optimal strategy is to stick with rule of ", y)
 
-print("Alice", sorted(emp_m)[-1][0], ", Bob", sorted(emp_m)[-1][1])
+print("scores: Alice", sorted(emp_m)[-1][0], ", Bob", sorted(emp_m)[-1][1])
