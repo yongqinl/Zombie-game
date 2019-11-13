@@ -1,5 +1,5 @@
 # Zombie-game
-A small game that finds the optimal strategy for Alice to score more "brains" than Bob, given full information disclosure.
+A small game that finds the optimal strategy for Alice to score more "brains" than Bob does, given full information disclosure.
 
 Sample input and output: 
 input: "BSS|BFS|BBF|SFS|SBF|BSB|SSF|BSB|BBB|FFB|BSS"
