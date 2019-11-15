@@ -93,7 +93,7 @@ while z < len(x) - 1:
     if x[-1 - z][0] == x[-2 - z][0]:
        y = x[-2 - z][2]
     else:
-        y = x[-1 - z][2]
+       y = x[-1 - z][2]
         break
     z += 1
 
