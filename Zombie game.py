@@ -101,6 +101,15 @@ print("Alice's optimal strategy is to stick with rule of ", y)
 
 print("scores: Alice", sorted(emp_m)[-1][0], ", Bob", sorted(emp_m)[-1][1])
 
-# Sample input and output: input: BSS|BFS|BBF|SFS|SBF|BSB|SSF|BSB|BBB|FFB|BSS 
+# Sample input and output: 
+#        input: BSS|BFS|BBF|SFS|SBF|BSB|SSF|BSB|BBB|FFB|BSS 
 #        output:  Alice's optimal strategy is to stick with rule of 2; 
 #                 scores:  Alice 5 , Bob 2"
+#
+# Note that this program returns Alice's optimal strategy in terms of finding the m that gives Alice's the most brains
+# However this is not necessarily the best strategy to win the game.
+# Consider the following case: input: BSS|BFS|BBF|SFS|SBF. 
+#                              output: Alice's optimal strategy is to stick with rule of  1
+#                                      scores: Alice 1 , Bob 3
+# Alice's scores the most brains possible, which is 1 in this case, when m = 1; however, if Alice chooses m to be 2
+# then both Alice and Bob scores 0 brain, in which case Alice's relative position is better comparing to " Alice 1 , Bob 3"
