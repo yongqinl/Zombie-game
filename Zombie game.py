@@ -94,13 +94,13 @@ while z < len(x) - 1:
        y = x[-2 - z][2]
     else:
        y = x[-1 - z][2]
-        break
+       break
     z += 1
 
 print("Alice's optimal strategy is to stick with rule of ", y)
 
 print("scores: Alice", sorted(emp_m)[-1][0], ", Bob", sorted(emp_m)[-1][1])
 
-# Sample input and output: input: "BSS|BFS|BBF|SFS|SBF|BSB|SSF|BSB|BBB|FFB|BSS" 
+# Sample input and output: input: BSS|BFS|BBF|SFS|SBF|BSB|SSF|BSB|BBB|FFB|BSS 
 #        output:  Alice's optimal strategy is to stick with rule of 2; 
 #                 scores:  Alice 5 , Bob 2"
