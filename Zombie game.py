@@ -111,5 +111,5 @@ print("scores: Alice", sorted(emp_m)[-1][0], ", Bob", sorted(emp_m)[-1][1])
 # Consider the following case: input: BSS|BFS|BBF|SFS|SBF. 
 #                              output: Alice's optimal strategy is to stick with rule of  1
 #                                      scores: Alice 1 , Bob 3
-# Alice's scores the most brains possible, which is 1 in this case, when m = 1; however, if Alice chooses m to be 2
-# then both Alice and Bob scores 0 brain, in which case Alice's relative position is better comparing to " Alice 1 , Bob 3"
+# Alice scores the most brains possible, which is 1 in this case, when m = 1; however, if Alice chooses m to be 2
+# then both Alice and Bob score 0 brain, in which case Alice's relative position is better comparing to " Alice 1 , Bob 3"
