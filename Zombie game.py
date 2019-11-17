@@ -20,7 +20,7 @@ if readList[0] == "":
 #Alice's turn
 
 # generate all possible m values and store them into a list to see which one is optimal
-# m can be changed as the reader wish
+# m can be changed as the reader wishes
 while m < 10 :
     i = 0
     while i < len(readList):
