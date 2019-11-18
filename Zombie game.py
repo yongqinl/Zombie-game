@@ -103,6 +103,6 @@ print("scores: Alice", sorted(emp_m)[-1][0], ", Bob", sorted(emp_m)[-1][1])
 
 # Sample input and output: 
 #        input: BSS|BFS|BBF|SFS|SBF|BSB|SSF|BSB|BBB|FFB|BSS 
-#        output:  Alice's optimal strategy is to stick with rule of 2; 
-#                 scores:  Alice 5 , Bob 2"
+#        output:  Alice's optimal strategy is to stick with rule of 2 
+#                 scores:  Alice 5 , Bob 2
 
